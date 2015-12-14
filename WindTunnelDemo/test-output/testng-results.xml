@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Test passed: NavigateToStore.]]>
+    </line>
+    <line>
+      <![CDATA[Resource name: iPhone-6 amirr.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+    </line>
+    <line>
+      <![CDATA[Test passed: NavigateToStore.]]>
+    </line>
+    <line>
+      <![CDATA[Resource name: iPhone-6 amirr.]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+    </line>
+    <line>
+      <![CDATA[Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 61.94 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].]]>
+    </line>
+    <line>
+      <![CDATA[Resource name: iPhone-5 amirr.]]>
+    </line>
+    <line>
+      <![CDATA[Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+    </line>
+    <line>
+      <![CDATA[Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 64.71 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].]]>
+    </line>
+    <line>
+      <![CDATA[Resource name: iPhone-5 amirr.]]>
+    </line>
+    <line>
+      <![CDATA[Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="332191" started-at="2015-12-14T15:49:48Z" finished-at="2015-12-14T15:55:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="332191" started-at="2015-12-14T15:49:48Z" finished-at="2015-12-14T15:55:20Z">
+      <class name="testng.starbucksTest">
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeClass" is-config="true" duration-ms="6" started-at="2015-12-14T18:49:48Z" finished-at="2015-12-14T18:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cd12c3d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass(org.testng.ITestContext)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeClass" is-config="true" duration-ms="0" started-at="2015-12-14T18:49:48Z" finished-at="2015-12-14T18:49:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3cd12c3d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeMethod" is-config="true" duration-ms="18112" started-at="2015-12-14T18:49:49Z" finished-at="2015-12-14T18:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testng.starbucksTest.starbucks(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeMethod" is-config="true" duration-ms="41242" started-at="2015-12-14T18:49:49Z" finished-at="2015-12-14T18:50:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testng.starbucksTest.starbucks(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="starbucks(java.lang.String)[pri:0, instance:testng.starbucksTest@33c2d176]" name="starbucks" duration-ms="48418" started-at="2015-12-14T18:50:07Z" data-provider="starbucksData" finished-at="2015-12-14T18:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: NavigateToStore.]]>
+            </line>
+            <line>
+              <![CDATA[Resource name: iPhone-6 amirr.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starbucks -->
+        <test-method status="FAIL" signature="starbucks(java.lang.String)[pri:0, instance:testng.starbucksTest@3b45b486]" name="starbucks" duration-ms="137283" started-at="2015-12-14T18:50:30Z" data-provider="starbucksData" finished-at="2015-12-14T18:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 61.94 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].]]>
+            </line>
+            <line>
+              <![CDATA[Resource name: iPhone-5 amirr.]]>
+            </line>
+            <line>
+              <![CDATA[Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starbucks -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2015-12-14T18:50:55Z" finished-at="2015-12-14T18:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testng.starbucksTest.starbucks(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="starbucks(java.lang.String)[pri:0, instance:testng.starbucksTest@33c2d176]" name="starbucks" duration-ms="46461" started-at="2015-12-14T18:50:55Z" data-provider="starbucksData" finished-at="2015-12-14T18:51:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test passed: NavigateToStore.]]>
+            </line>
+            <line>
+              <![CDATA[Resource name: iPhone-6 amirr.]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starbucks -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.starbucksTest@3b45b486]" name="afterClass" is-config="true" duration-ms="7096" started-at="2015-12-14T18:51:42Z" finished-at="2015-12-14T18:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testng.starbucksTest@3b45b486]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2015-12-14T18:52:47Z" finished-at="2015-12-14T18:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testng.starbucksTest.starbucks(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="starbucks(java.lang.String)[pri:0, instance:testng.starbucksTest@3b45b486]" name="starbucks" duration-ms="143533" started-at="2015-12-14T18:52:47Z" data-provider="starbucksData" finished-at="2015-12-14T18:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 64.71 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].]]>
+            </line>
+            <line>
+              <![CDATA[Resource name: iPhone-5 amirr.]]>
+            </line>
+            <line>
+              <![CDATA[Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png style="max-width:50%;max-height:50%" /> <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- starbucks -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.starbucksTest@3b45b486]" name="afterClass" is-config="true" duration-ms="9542" started-at="2015-12-14T18:55:11Z" finished-at="2015-12-14T18:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.starbucksTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

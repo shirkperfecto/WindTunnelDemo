@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" threads="10" >
+  <test name="Test">
+    <classes>
+     <class name="testng.starbucksTest" />
+      <!-- <class name="testng.SignIn" />-->
+      <!-- <class name="testng.FindPost" /> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

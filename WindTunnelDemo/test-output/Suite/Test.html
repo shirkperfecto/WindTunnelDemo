@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 14 18:49:48 MSK 2015</td>
+</tr>
+<tr><td>Total time:</td><td>332 seconds (332191 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.starbucksTest.starbucks()'><b>starbucks</b><br>Test class: testng.starbucksTest<br>Parameters: false<br/>
+<a href="#Output-29346776" onClick='toggleBox("Output-29346776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29346776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29346776">
+Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 61.94 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].<br/>
+Resource name: iPhone-5 amirr.<br/>
+Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png<br/>
+<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-52-47-794-MSK.png style="max-width:50%;max-height:50%" /> <br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace29346776", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace29346776'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>137</td>
+<td>testng.starbucksTest@3b45b486</td></tr>
+<tr>
+<td title='testng.starbucksTest.starbucks()'><b>starbucks</b><br>Test class: testng.starbucksTest<br>Parameters: false<br/>
+<a href="#Output-1656373931" onClick='toggleBox("Output-1656373931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1656373931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1656373931">
+Test failed: Failed to execute command text select: Needle not found for expected value: "STORES"
+Command duration or timeout: 64.71 seconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WIN-FFOHRV9Q2T4', ip: '192.168.222.191', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Session ID: 54d842fd-9d56-41dd-83ef-04f09c9b8c5f
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=ANY, scriptName=RemoteWebDriver, model=iPhone-5, windTunnelPersona=Georgia, javascriptEnabled=true, host=performance.perfectomobile.com, browserName=MobileOS, executionId=amirr@perfectomobile.com_RemoteWebDriver_15-12-14_15_49_50_514, rotatable=true, locationContextEnabled=true, webdriver.remote.sessionid=54d842fd-9d56-41dd-83ef-04f09c9b8c5f, password=, version=, cssSelectorsEnabled=true, deviceName=9969D14B461147730C223BF7D7260C07B1BCF84C, description=amirr, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_15-12-14_15_49_50_514.xml, user=, takesScreenshot=true}].<br/>
+Resource name: iPhone-5 amirr.<br/>
+Error screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png<br/>
+<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-55-11-329-MSK.png style="max-width:50%;max-height:50%" /> <br><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1656373931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1656373931'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.perfectomobile.test.BasicTest.reportFailWithMessage(BasicTest.java:321)
+	at testng.starbucksTest.starbucks(starbucksTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>143</td>
+<td>testng.starbucksTest@3b45b486</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.starbucksTest.starbucks()'><b>starbucks</b><br>Test class: testng.starbucksTest<br>Parameters: false<br/>
+<a href="#Output-1461246209" onClick='toggleBox("Output-1461246209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1461246209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1461246209">
+Test passed: NavigateToStore.<br/>
+Resource name: iPhone-6 amirr.<br/>
+Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png<br/>
+<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-50-55-381-MSK.png style="max-width:50%;max-height:50%" /> <br><br/>
+</div>
+</td>
+<td></td>
+<td>48</td>
+<td>testng.starbucksTest@33c2d176</td></tr>
+<tr>
+<td title='testng.starbucksTest.starbucks()'><b>starbucks</b><br>Test class: testng.starbucksTest<br>Parameters: false<br/>
+<a href="#Output-273212159" onClick='toggleBox("Output-273212159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-273212159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-273212159">
+Test passed: NavigateToStore.<br/>
+Resource name: iPhone-6 amirr.<br/>
+Screenshot saved in file: C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png<br/>
+<br> <img src=C:\Users\Shirk\Desktop\Selenium\workspace\WTDemo\test-output\screenshots2015-12-14-18-51-41-864-MSK.png style="max-width:50%;max-height:50%" /> <br><br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>testng.starbucksTest@33c2d176</td></tr>
+</table><p>
+</body>
+</html>
